@@ -6,6 +6,35 @@ footer{
 	text-align: right;
 }
 
+/* All dedications */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* End all dedications */
+
 /* poem/verse/song */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
@@ -29,13 +58,24 @@ footer{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
 /* end of poem/verse/song */
 
 /* location specific */
-#chapter-1 blockquote:first-of-type > p{
-	text-align: right;
-}
-
 #chapter-2 blockquote > p{
 	font-style: italic;
 }
