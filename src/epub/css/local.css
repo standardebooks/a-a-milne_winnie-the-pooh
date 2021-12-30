@@ -73,6 +73,11 @@ p span.i3{
 	padding-left: 4em;
 	text-indent: -1em;
 }
+
+p span.i4{
+	padding-left: 5em;
+	text-indent: -1em;
+}
 /* end of poem/verse/song */
 
 /* location specific */
@@ -80,9 +85,42 @@ p span.i3{
 	font-style: italic;
 }
 
+#chapter-4 blockquote:first-of-type,
+#chapter-4 blockquote:nth-of-type(2),
 #chapter-6 blockquote:last-of-type,
 #chapter-8 blockquote:last-of-type,
 #chapter-9 blockquote{
 	font-variant: small-caps;
 	text-transform: lowercase;
+}
+
+#chapter-6 blockquote:last-of-type{
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-7 blockquote > header,
+#chapter-10 blockquote > header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+#chapter-7 blockquote > header > p,
+#chapter-10 blockquote > header > p{
+	text-align: center;
+}
+
+#chapter-7 div > p{
+	hanging-punctuation: none;
+	text-indent: 1em;
+}
+
+#chapter-7 div span{
+	visibility: hidden;
+}
+
+#chapter-8 blockquote:last-of-type p,
+#chapter-9 blockquote p{
+	text-align: center;
+	text-indent: 0;
 }
