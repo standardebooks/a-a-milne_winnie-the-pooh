@@ -40,7 +40,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>LANG</dc:language>
+		<dc:language>en-GB</dc:language>
 		<dc:source>PG_URL</dc:source>
 		<dc:source>IA_URL</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
