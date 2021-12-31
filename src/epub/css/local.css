@@ -98,7 +98,11 @@ p span.i4{
 	text-transform: lowercase;
 }
 
-#chapter-6 blockquote:last-of-type{
+#chapter-6 blockquote:last-of-type,
+#chapter-7 blockquote > header > p,
+#chapter-8 blockquote:last-of-type p,
+#chapter-9 blockquote p,
+#chapter-10 blockquote > header > p{
 	text-align: center;
 	text-indent: 0;
 }
@@ -109,11 +113,7 @@ p span.i4{
 	margin-bottom: 1em;
 }
 
-#chapter-7 blockquote > header > p,
-#chapter-10 blockquote > header > p{
-	text-align: center;
-}
-
+/* "jumping" text */
 #chapter-7 div > p{
 	hanging-punctuation: none;
 	text-indent: 1em;
@@ -122,9 +122,4 @@ p span.i4{
 #chapter-7 div span{
 	visibility: hidden;
 }
-
-#chapter-8 blockquote:last-of-type p,
-#chapter-9 blockquote p{
-	text-align: center;
-	text-indent: 0;
-}
+/* end of jumping text */
