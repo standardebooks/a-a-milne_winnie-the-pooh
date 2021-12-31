@@ -81,6 +81,10 @@ p span.i4{
 /* end of poem/verse/song */
 
 /* location specific */
+#dedication blockquote{
+	font-variant: small-caps;
+}
+
 #chapter-2 blockquote > p{
 	font-style: italic;
 }
