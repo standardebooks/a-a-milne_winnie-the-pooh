@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/a-a-milne/winnie-the-pooh</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-01-01T23:35:25Z</dc:date>
+		<meta property="dcterms:modified">2022-01-01T23:35:25Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -35,15 +35,15 @@
 		<meta property="se:subject">Childrens</meta>
 		<dc:description id="description">A father tells stories to his son about the son’s stuffed animals come to life.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Winnie the Pooh is a bear that likes honey perhaps a little too much and lives in One Hundred Acre woods with his animal friends Rabbit, Piglet, Owl, Eeyore, Kanga and Roo, as well as his people friend Christopher Robin. &lt;i&gt;Winnie the Pooh&lt;/i&gt; contains several stories of adventures involving Pooh and his friends, including a birthday party, looking for heffalumps, finding a missing tail, and playing a trick on one of their own. Most of them, of course, also involve honey in one way or another.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-a-milne"&gt;A. A. Milne&lt;/a&gt; wrote for &lt;i&gt;Punch&lt;/i&gt; magazine, authored a mystery novel (&lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/a-a-milne/the-red-house-mystery"&gt;The Red House Mystery&lt;/a&gt;&lt;/i&gt;), and published several plays, but all of them were largely forgotten after he began writing children’s books about live versions of his son’s stuffed toys. Winnie the Pooh and his friends captured the public’s imagination, and though Milne was only to publish four books of their adventures (two prose and two verse), they have lived on in the imagination of children ever since.&lt;/p&gt;
+			&lt;p&gt;Winnie the Pooh is a bear that likes honey perhaps a little too much and lives in One Hundred Acre woods with his animal friends Rabbit, Piglet, Owl, Eeyore, Kanga, and Roo, as well as his people friend Christopher Robin. &lt;i&gt;Winnie the Pooh&lt;/i&gt; contains several stories of adventures involving Pooh and his friends, including a birthday party, looking for heffalumps, finding a missing tail, and playing a trick on one of their own. Most of them, of course, also involve honey in one way or another.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/a-a-milne"&gt;A. A. Milne&lt;/a&gt; wrote for &lt;i&gt;Punch&lt;/i&gt; magazine, authored a mystery novel (&lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/a-a-milne/the-red-house-mystery"&gt;The Red House Mystery&lt;/a&gt;&lt;/i&gt;), and published several plays, but all of them were largely forgotten after he began writing children’s books about his son’s stuffed toys. Winnie the Pooh and his friends captured the public’s imagination, and though Milne was only to publish four books of their adventures, they have lived on in the imagination of children ever since.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20150606</dc:source>
 		<dc:source>https://archive.org/details/winniepooh00aami</dc:source>
-		<meta property="se:production-notes">The vertical formatting on a paragraph in chapter 1 was eliminated since there are no illustrations. The "wavy" formatting of a sentence in chapter 7 was accomplished with spans and a little CSS trickery.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The vertical formatting on a paragraph in chapter 1 was eliminated since there are no illustrations.</meta>
+		<meta property="se:word-count">23270</meta>
+		<meta property="se:reading-ease.flesch">83.56</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Winnie_the_Pooh</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/a-a-milne_winnie-the-pooh</meta>
 		<dc:creator id="author">A. A. Milne</dc:creator>
@@ -77,6 +77,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
