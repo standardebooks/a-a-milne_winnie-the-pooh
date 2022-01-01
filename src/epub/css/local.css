@@ -81,8 +81,9 @@ p span.i4{
 /* end of poem/verse/song */
 
 /* location specific */
-#dedication blockquote{
+#dedication p{
 	font-variant: small-caps;
+	margin-top: 3em;
 }
 
 #chapter-2 blockquote > p{
