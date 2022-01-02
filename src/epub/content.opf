@@ -33,6 +33,9 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh97001746</meta>
 		<meta property="se:subject">Childrens</meta>
+		<meta id="collection-1" property="belongs-to-collection">Winnie-the-Pooh</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">2</meta>
 		<dc:description id="description">A father tells stories to his son about the son’s stuffed animals come to life.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Winnie the Pooh is a bear that likes honey perhaps a little too much and lives in the Hundred Acre Wood with his animal friends Rabbit, Piglet, Owl, Eeyore, Kanga, and Roo, as well as his people friend Christopher Robin. &lt;i&gt;Winnie the Pooh&lt;/i&gt; contains several stories of adventures involving Pooh and his friends, including a birthday party, looking for heffalumps, finding a missing tail, and playing a trick on one of their own. Most of them, of course, also involve honey in one way or another.&lt;/p&gt;
