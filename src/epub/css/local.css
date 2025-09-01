@@ -115,12 +115,13 @@ p span.i4{
 }
 
 /* "jumping" text */
-#chapter-7 div > p{
-	hanging-punctuation: none;
-	text-indent: 1em;
+#chapter-7 > p:nth-child(109) span{
+	vertical-align: 1.5em;
 }
 
-#chapter-7 div span{
-	visibility: hidden;
+#chapter-7 > p:nth-child(109) span:nth-child(2),
+#chapter-7 > p:nth-child(109) span:nth-child(3),
+#chapter-7 > p:nth-child(109) span:nth-child(5){
+	vertical-align: -1.5em;
 }
 /* end of jumping text */
