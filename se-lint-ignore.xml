@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="chapter-7.xhtml">
-		<ignore>
-			<code>y-003</code>
-			<reason>The missing punctuation is due to the formatting of the lines to match the scans.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
