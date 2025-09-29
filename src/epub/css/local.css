@@ -6,6 +6,10 @@ footer{
 	text-align: right;
 }
 
+.aside{
+	font-style: italic;
+}
+
 /* All dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
